@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Check the string</title>
+</head>
+<body>
+
+
+
+<p id="demo"></p>
+
+<p id = "asd"></p>
+
+
+<script type="text/javascript">
+	function isEmpty(str)
+	{
+		this.str = str;
+
+		
+		if (str == "" || str == null || str == undefined) 
+			{
+				document.getElementById("demo").innerHTML = "true";
+				return true;
+			}
+			else {
+				document.getElementById("demo").innerHTML = "false";
+				return false;
+			}
+	}
+	var work = new isEmpty("");
+	document.getElementById("asd").innerHTML = " because text is"+ " "+work.str;
+</script></body>
+</html>
