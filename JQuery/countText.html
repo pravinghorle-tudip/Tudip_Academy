@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+i = 0;
+$(document).ready(function(){
+    $("#text1").keypress(function(){
+        $("span").text(i += 1);
+        $("#text2").val(i);
+    });
+	
+	 
+
+});
+</script>
+</head>
+<body>
+
+Enter your text here: <input type="text" id="text1">
+
+<input type="text" id="text2" placeholder="0">
+
+
+</body>
+</html>
