@@ -1,0 +1,36 @@
+#main {
+  height: 120%;
+  width: 90%;
+  border: 1px solid;
+  position: absolute;
+}
+#main header {
+  border: 1px solid;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+#main #sub {
+  margin-right: 20px;
+  height: 70%;
+  border: 1px solid black;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+#main article {
+  border: 2px solid red;
+  float: left;
+  width: 48%;
+}
+#main aside {
+  border: 2px solid red;
+  float: right;
+  width: 47%;
+}
+#main footer {
+  border: 1px solid;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
